@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/js/script.js"></script>
+    <title>Quizz World</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Quizz World</h1>
+        </header>
+        <main class="main">
+            <section class="quiz-category">
+                <div class="quiz-category__item" data-game-id="game1">
+                    <h2 class="quiz-category__title">Applications Web</h2>
+                    <img class="quiz-category__image" src="assets/img/web.jpg" alt="applications Web">
+                    <div class="radio-group">
+                        <input id="débutantWeb" type="radio" name="niveau" value="débutant">
+                        <label for="débutantWeb">Débutant</label>
+                        <input id="confirméWeb" type="radio" name="niveau" value="confirmé">
+                        <label for="confirméWeb">Confirmé</label>
+                        <input id="expertWeb" type="radio" name="niveau" value="expert">
+                        <label for="expertWeb">Expert</label>
+                    </div>
+                </div>
+                <div class="quiz-category__item" data-game-id="game2">
+                    <h2 class="quiz-category__title">JavaScript</h2>
+                    <img class="quiz-category__image" src="assets/img/javascript.png" alt="JavaScript">
+                    <div class="radio-group">
+                        <input id="débutantJS" type="radio" name="niveau" value="débutant">
+                        <label for="débutantJS">Débutant</label>
+                        <input id="confirméJS" type="radio" name="niveau" value="confirmé">
+                        <label for="confirméJS">Confirmé</label>
+                        <input id="expertJS" type="radio" name="niveau" value="expert">
+                        <label for="expertJS">Expert</label>
+                    </div>
+                </div>
+                <div class="quiz-category__item" data-game-id="game3">
+                    <h2 class="quiz-category__title">Le XXième Siècle</h2>
+                    <img class="quiz-category__image" src="assets/img/dates20.jpg" alt="Le XXième Siècle">
+                    <div class="radio-group">
+                        <input id="débutantXX" type="radio" name="niveau" value="débutant">
+                        <label for="débutantXX">Débutant</label>
+                        <input id="confirméXX" type="radio" name="niveau" value="confirmé">
+                        <label for="confirméXX">Confirmé</label>
+                        <input id="expertXX" type="radio" name="niveau" value="expert">
+                        <label for="expertXX">Expert</label>
+                    </div>
+                </div>
+                <div class="quiz-category__item" data-game-id="game4">
+                    <h2 class="quiz-category__title">Nintendo</h2>
+                    <img class="quiz-category__image" src="assets/img/nintendo.jpg" alt="Nintendo">
+                    <div class="radio-group">
+                        <input id="débutantNin" type="radio" name="niveau" value="débutant">
+                        <label for="débutantNin">Débutant</label>
+                        <input id="confirméNin" type="radio" name="niveau" value="confirmé">
+                        <label for="confirméNin">Confirmé</label>
+                        <input id="expertNin" type="radio" name="niveau" value="expert">
+                        <label for="expertNin">Expert</label>
+                    </div>
+                </div>
+                <div class="quiz-category__item" data-game-id="game5">
+                    <h2 class="quiz-category__title">Trouver le Nombre</h2>
+                    <img class="quiz-category__image" src="assets/img/nombres.jpg" alt="Trouver le Nombre">
+                    <div class="radio-group">
+                        <input id="débutantNb" type="radio" name="niveau" value="débutant">
+                        <label for="débutantNb">Débutant</label>
+                        <input id="confirméNb" type="radio" name="niveau" value="confirmé">
+                        <label for="confirméNb">Confirmé</label>
+                        <input id="expertNb" type="radio" name="niveau" value="expert">
+                        <label for="expertNb">Expert</label>
+                    </div>
+                </div>
+                <div class="quiz-category__item" data-game-id="game6">
+                    <h2 class="quiz-category__title">Microsoft</h2>
+                    <img class="quiz-category__image" src="assets/img/microsoft.jpg" alt="Microsoft">
+                    <div class="radio-group">
+                        <input id="débutantMcr" type="radio" name="niveau" value="débutant">
+                        <label for="débutantMcr">Débutant</label>
+                        <input id="confirméMcr" type="radio" name="niveau" value="confirmé">
+                        <label for="confirméMcr">Confirmé</label>
+                        <input id="expertMcr" type="radio" name="niveau" value="expert">
+                        <label for="expertMcr">Expert</label>
+                    </div>
+                </div>
+                <div class="quiz-category__item" data-game-id="game7">
+                    <h2 class="quiz-category__title">PHP</h2>
+                    <img class="quiz-category__image" src="assets/img/PHP.jpg" alt="PHP">
+                    <div class="radio-group">
+                        <input id="débutantPHP" type="radio" name="niveau" value="débutant">
+                        <label for="débutantPHP">Débutant</label>
+                        <input id="confirméPHP" type="radio" name="niveau" value="confirmé">
+                        <label for="confirméPHP">Confirmé</label>
+                        <input id="expertPHP" type="radio" name="niveau" value="expert">
+                        <label for="expertPHP">Expert</label>
+                    </div>
+                </div>
+                <div class="quiz-category__item" data-game-id="game8">
+                    <h2 class="quiz-category__title">Méandres d'Internet</h2>
+                    <img class="quiz-category__image" src="assets/img/internet.jpg" alt="Méandres d'Internet">
+                    <div class="radio-group">
+                        <input id="débutantI" type="radio" name="niveau" value="débutant">
+                        <label for="débutantI">Débutant</label>
+                        <input id="confirméI" type="radio" name="niveau" value="confirmé">
+                        <label for="confirméI">Confirmé</label>
+                        <input id="expertI" type="radio" name="niveau" value="expert">
+                        <label for="expertI">Expert</label>
+                    </div>
+                </div>
+            </section>
+            <div id="dialog" class="hidden">
+                <label for="prenom">Entrez votre prénom :</label>
+                <input type="text" id="prenom" placeholder="Votre prénom">
+                <button id="valider">Valider</button>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="footer__descr">
+            <p>Quizz World &copy; 2025</p>
+            <p>Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
