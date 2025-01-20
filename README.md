@@ -51,7 +51,7 @@ TP-Quizz-World est une application interactive de quiz développée avec jQuery.
 - Des fonctions JavaScript bien structurées pour assurer une gestion fluide des interactions utilisateur.
 
 ### Déploiement
-- Le projet sera déployé sur **Vercel**. Accédez à l'application ici : [TP-Quizz-World](https://....).
+- Le projet sera déployé sur **Vercel**. Accédez à l'application ici : [TP-Quizz-World](https://tp-quizz-world.vercel.app/).
 
 ## Auteur
 
